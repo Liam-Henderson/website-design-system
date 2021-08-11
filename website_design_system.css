@@ -10,37 +10,40 @@ h1 {
 
 h2 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
 }
 
-h3 {
+p {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 300;
 }
 
 .component {
     width: 100%;
     border: 2px gray solid;
-    padding: 5px;
+    padding: 20px;
+    margin: 10px auto;
 }
 
 section.color {
     width: 24%;
-    height: 100px;
+    height: 160px;
     text-align: center;
     display: inline-block;
     border: 1px black solid;
     margin: 15px auto;
+    vertical-align: top;
 }
 
+
 section.font{
-    width: 32%;
-    height: 100px;
-    text-align: right;
+    height: 190px;
+    text-align: left;
     display: inline-block;
-    margin: 15px auto;
+    margin: 5px auto;
+    width: 30%;
 }
 
 #red{
@@ -57,4 +60,16 @@ section.font{
 
 #lightgreen{
     background-color: #009900;
+}
+
+#ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#quicksand {
+    font-family: 'Quicksand', sans-serif;;
+}
+
+#open-sans-condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
